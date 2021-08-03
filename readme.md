@@ -21,7 +21,7 @@
 
   
 
-3. open the grafana-okteto.yml in your fav text editor and change the namespace field to the name of namespace onto which grafana needs to be deployed.
+3. Open the grafana-okteto.yml in your fav text editor and change the namespace field to the name of namespace onto which grafana needs to be deployed.
 
   
   
@@ -46,7 +46,7 @@ Optional: If you're a command line ninja, you can use the below method to change
 
   
 
-6. Once the pod is running, in okteto cloud web, a private endpoint will be created for the grafana like https://grafana-namespace.cloud.okteto.net
+6. Once the pod is running, in okteto cloud web, a private endpoint will be created for the grafana like https://grafana-namespace.cloud.okteto.net since the service type is loadbalancer.
 
   
 
